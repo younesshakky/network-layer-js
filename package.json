@@ -21,6 +21,7 @@
   "scripts": {
     "publish": "npm run build",
     "test": "jest",
-    "build": "./node_modules/.bin/babel src --out-dir lib"
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "postpublish": "rm -rf ./lib"
   }
 }
