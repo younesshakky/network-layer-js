@@ -1,5 +1,5 @@
 // import { countries, currencies, banks, auth } from "./network-modules";
-const Network = require("../lib/index").default
+const Network = require("../lib").default
 
 const auth = Network.createModule("/auth", module => ({
   login: body => module.post("/", body)
