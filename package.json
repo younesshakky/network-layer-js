@@ -1,6 +1,6 @@
 {
   "name": "network-layer-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "author": "Youness Hakky",
   "license": "MIT",
