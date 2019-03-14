@@ -13,10 +13,14 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4"
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "jest": "^24.5.0"
   },
   "scripts": {
     "publish": "npm run build",
+    "test": "jest",
     "build": "./node_modules/.bin/babel src --out-dir lib"
   }
 }
